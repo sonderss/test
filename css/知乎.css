@@ -1,0 +1,205 @@
+#zhihu-logo{
+	padding-left: 37px;
+}
+#firsttable1{
+	margin-left: 36px;
+	width: 124px; 
+	height: 57px;
+	border: 0;
+	
+}
+#firsttable2{
+	margin-right: 20px;
+	width: 240px;
+	height: 30px;
+	/* 只留文本框的左线*/
+	border: none;
+	border-left: 1px solid #cccccc;
+	
+}
+#yanzhengma{
+	width: 360px;
+	height: 50px;
+	margin: auto;
+	border: none;/*去掉输入框的边线*/
+	padding-top: 0px;
+}
+#seg{
+	width: 130px;
+	height: 40px;
+	border: none;
+}
+#get{
+	width: 150px;
+	height: 34px;
+	float: right;
+	text-align: right;/*文本靠右*/
+    padding-top: 8px;
+	font-size: 14px;
+	line-height: 24px;/*行高  用于文字 调整文字高度*/
+}
+#yuyintishi{
+	width: 360px;
+	height: 20px;
+	margin: auto;
+	
+}
+#tel{
+	float: right;
+	text-decoration: none;
+}
+#zhuce{
+	width: 360px;
+	height: 38px;
+	
+	margin: auto;
+}
+#zhuce1{
+	width: 360px;
+	height: 38px;
+	color: white;
+	border-radius: 5px;/*修改按钮的四角*/
+	border: none;
+}
+#yinsixieyi{
+	width: 380px;
+	height: 20px;
+	
+	margin: 22px auto;
+	
+}
+#yinsixieyi p{
+	text-align: left;
+	margin-top: 0px;
+	
+	
+}
+#yinsixieyi p a{
+	text-decoration: none;
+	color: #8590A6;
+}
+#yinsixieyi  #jigou{
+	text-align: right;
+}
+#yinsixieyi  #wenben{
+	margin-left: 11px;
+}
+#denglu{
+	width: 452px;
+	height: 58px;
+	position: relative;
+    margin-top: 54px; 
+    background-color:#f6f6f6 ;   
+    
+}
+#denglu p{
+	text-align: center;
+	padding-top: 13px;
+}
+#denglu p a{
+	text-decoration: none;
+	color: #175199;
+}
+#downlond{
+	width: 100%;
+	height: 42px;
+
+	position: relative;
+	
+}
+#downlond #downlond1{
+	width: 454px;
+	height: 42px;
+	
+    margin: auto;
+}
+#downlond #downlond1 #downlond2{
+	width: 454px;
+	height: 42px;
+	background-color: #8590a6;
+	border-radius: 5px;
+	border: none;
+	color: white;
+}
+#text1{
+	width: 100%;
+	height:70px;
+	
+}
+#text1 a{
+	text-decoration: none;
+	
+	font-size: 12px;
+	color: #f6f6f6;
+	margin-top: 5px;
+}
+#text1 a:hover{
+	text-decoration: underline;/* 让a标签在鼠标滑过的时候出现下划线  配合text-decoration ： none;使用*/
+}
+#text1 #text2{
+	width: 400px;
+	height: 15px;
+	
+	margin: auto;
+	text-align: left;
+}
+#text1 #text3 {
+	width: 500px;
+	height: 15px;
+	
+	margin: auto;
+}
+#text1 #text3 p{
+	margin-top: 8px;
+}
+#text1 #text4{
+	width: 540px;
+	height: 15px;
+	
+	margin: auto;
+}
+#text1 #text4 p{
+	margin-top:4px;
+	color:#f6f6f6 ;
+	font-size: 12px;
+	
+}
+#text1 #text5{
+	width: 423px;
+	height: 5px;
+	
+	margin: auto;
+	margin-top: 10px;
+	border: none;
+}
+#last{
+	width: 100%;
+	height: 50px;
+
+}
+#last a{
+	text-decoration: none;
+	color: white;
+    font-size: 13px;
+	
+}
+#last #photo1{
+	width: 20px;
+	height: 20px;
+	
+	margin-left:118px;
+
+}
+#last #photo a {
+	 position: absolute; left: 615px ; top: 805px;
+	 
+}
+#last #photo a:hover{
+	text-decoration: underline;
+}
+#last #last1{
+	width: 400px;
+	height: 20px;
+	border: none;
+	margin: auto;
+}

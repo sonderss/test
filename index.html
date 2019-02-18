@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>知乎</title>
+		<link rel="stylesheet" type="text/css" href="css/知乎.css"/>
+		<style type="text/css">
+			body{
+				background: #c5e3fd; 
+				background-image: url(img/知乎背景.png); 
+			    /* 不重复*/
+				background-repeat: no-repeat; 
+				/* 效果与100% 100%相同   等比例展现*/
+				background-size: cover;
+				/* 不让背景图滑动 */
+				background-attachment: fixed;
+			}
+			.zhihu{
+				width: 434px;
+				height: 538px;
+				background-color: white;
+				/* 居中 显示 并且微调 */
+				margin: 45px auto;
+				padding-right: 20px;
+				
+			}
+	 
+         input::-webkit-input-placeholder{
+         	/*浅灰色*/
+         	color: #8590A6;
+      
+         }
+
+		</style>
+	</head>
+	<body >
+		<div class="zhihu">
+			<div id="zhihu-logo">
+				<img src="img/知乎.png"/>
+			</div>
+		    <div class="firsttable">
+		    	<!--下拉条   小三角 -->
+		    	<form>
+		    		
+		    		<select id="firsttable1" value="" style="color: darkgray; font-size: 15px;">
+		    			<!--下拉选项  -->
+		    			<option value="中国 + 86">中国 + 86</option>
+		    			<option value="美国 + 1">美国 + 1</option>
+		    			<option value="日本 + 81">日本 + 81</option>
+		    			<option value="中国香港 + 852">中国香港 + 852</option>
+		    			<option value="中国澳门 + 853">中国澳门 + 853</option>
+		    			<option value="中国台湾 + 886">中国台湾 + 886</option>
+		    			<option value="马来西亚 + 60">马来西亚 + 60</option>
+		    			<option value="澳大利亚 + 61">澳大利亚 + 61</option>
+		    			<option value="加拿大 + 1">加拿大 + 1</option>
+		    			<option value="英国+ 44">英国 + 44</option>
+		    			<option value="新加坡 + 65">新加坡 + 65</option>
+		    			<option value="德国 + 49">德国 + 49</option>
+		    			<option value="俄罗斯 + 7">俄罗斯 + 7</option>
+		    			<option value="埃及 + 20">埃及 + 20</option>
+		    			<option value="南非 + 27">南非 + 27</option>
+		    			<option value="希腊 + 30">希腊 + 30</option>
+		    			<option value="荷兰 + 31">荷兰 + 31</option>
+		    			<option value="比利时 + 32">比利时 + 32</option>
+		    			<option value="法国 + 33">法国 + 33</option>
+		    			<option value="西班牙+ 34">西班牙+ 34</option>
+		    		</select>
+		    		
+		    		 <!--输入手机号 -->                                        <!--提示性文字-->
+		    	<input id="firsttable2" type="text" value="" placeholder="   手机号" style="font-size: 14px;"/>
+		    	
+		    </form>
+		   </div>
+		    <hr style="width: 360px; height: 1px; background-color: #cccccc; border: none; margin-top: 1px;" />
+		    <div id="yanzhengma">
+		    	<div class="firsttable3">
+		    		<input type="text"  id="seg" value="" placeholder="输入6位短信验证码"/>
+		    		<div id="get">
+		    		<a href="#" style="color: #175199; text-decoration: none;">获取短信验证码</a>
+		    	    </div>
+		    	</div>
+		    	<hr style="width: 360px; height: 1px; background-color: #cccccc; border: none; margin-top: 1px;" />
+		    </div>
+		        <div id="yuyintishi">
+		    	     <a href="#" style="font-size: 14px; color: #8590A6;" id="tel">接收语音验证码</a>
+		   		</div>
+		   	<br  />
+		   	<br  />
+	        <div id="zhuce">
+	        	<input type="button" name="" id="zhuce1" value="注册" style="background-color: #0084ff;"/>
+	        </div>
+		    <div id="yinsixieyi">
+		    	<p style="font-size: 13px; color:#8590A6;" id="wenben">注册即代表同意<a href="#">《知乎协议》《隐私保护指引》</a>
+		    	&emsp;<a href="#" style="color:#175199 ; font-size: 14px; text-decoration: none;" id="jigou">注册机构号</a></p> 
+		
+		    </div>
+		    <div id="denglu">
+		    	
+		    	<p>已有账号？<a href="#">登录</a></p>
+	 
+		    </div>
+		</div>
+	         <!--下载APP的按钮 -->
+	        <div id="downlond">
+	        	<div id="downlond1">
+	        		<input type="button" id="downlond2" value="下载知乎  App" />
+	        	</div>
+	        </div>
+	        <br  />
+	        <br  />
+	    <div id="text1" class="text1">
+	    	<!--第一行提示链接文字 -->
+	    	 <div id="text2" >
+	    	 	<a href="#">知乎专栏 </a><a href="#"> · </a><a href="#" >圆桌 </a><a href="#"> · </a><a href="#" >发现 </a><a href="#"> · </a><a href="#" >移动应用 </a><a href="#">·</a><a href="#" >联系我们 </a><a href="#"> · </a><a href="#" >来知乎工作 </a><a href="#"> · </a><a href="#" >注册机构号 </a>
+	    	</div>
+	    	<!--第二行提示链接文字 -->
+            <div id="text3">
+                 <p style="color: white;font-size: 13px;" id="no1">© 2018知乎 · <a href="#">京ICP证110745号 </a> · 京公网安备11010802010035 号<a href="#" >出版物经营许可证 </a></p>
+            </div>
+            <!--第三行提示链接文字 -->
+            <div id="text4">
+            	<p><a href="#">侵权举报</a> · <a href="#">网上有害信息举报专区</a> · <a href="#">儿童色情信息举报专区</a> · 违法和不良信息举报：010-82716601</p>
+            </div>
+            
+            <div id="text5">
+            	<hr  />
+            </div>
+	    </div>
+	    <br  />
+	    <div id="last">
+	    	<div id="last1">
+	    		
+	         <div id="photo1">
+	         	<img src="Z_CZL3ABDGN8AGW588B0D56.png"/>
+	         </div>
+	         
+	         
+	    	<div id="photo">
+	            <a href="#" style="font-size: 12px;">诚信网站示范企业</a>
+	    	</div>
+	    	
+	    	</div>
+	    </div>
+	     
+	    
+	</body>
+</html>
